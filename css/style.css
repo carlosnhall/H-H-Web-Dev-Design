@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    background-image:url(/multimedia/back.jpg) ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    border: 2px solid red;
+    border-radius: 10px;
+  }
+
+  .ancho {
+    margin: auto;
+    width: 100%;
+    height: 150px;
+    
+  }
+
+  .logo {
+   
+    width: 35%;
+    height: 150px;
+    background-image: url(/multimedia/H_and_H_1920x1080-removebg-preview.png);
+    background-repeat: no-repeat;
+    float: left;
+    box-sizing: border-box;
+   
+  }
+
+  nav {
+   
+    width: 65%;
+    height: 150px;
+    float: left;
+    text-align: right;
+    padding-top: 60px;
+    box-sizing: border-box;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+
+  }
+
+  nav ul li a {
+    
+    color: red;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: oswald;
+  }
